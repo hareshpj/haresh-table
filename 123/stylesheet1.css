@@ -1,0 +1,115 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+header {
+    height: 50px;
+    background-color: transparent;
+    width: 100%;
+    position: sticky;
+   
+}
+
+header .m1 {
+    display: flex;
+    
+
+}
+
+header .m1 .logo {
+    width: 25%;
+    padding-top: 15px;
+    font-size: 34px;
+    padding-top: 3px;
+
+
+}
+
+header .m1 .logo span {
+    color: red;
+
+}
+
+
+header .m1 .menu {
+    width: 55%;
+    
+
+}
+
+header .m1 .menu nav ul {
+    list-style: none;
+    display: flex;
+    padding-top: 15px;
+
+
+}
+
+header .m1 .menu nav ul li a {
+    text-decoration: none;
+    padding: 20px;
+    color: black;
+
+}
+header .m1 .menu nav ul li a span{
+    color: red;
+}
+
+header .m1 .m2 {
+    width: 20%;
+    padding-top: 3px;
+    display: flex;
+    font-size: 30px;
+   
+
+}
+header .m1 .m2 .search{
+    height: 29px;
+    width: 28px;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: white;
+    padding-left: 6px;
+    padding-top: 6px;
+    font-size: 20px;
+    border-radius: 30px;
+   
+}
+header .m1 .m2 .search :hover{
+
+
+}
+header .m1 .m2 .daynight{
+    height: 29px;
+    width: 28px;
+    padding-left: 6px;
+    padding-top: 2.5px;
+    color: white;
+
+}
+
+
+section  .img1{
+    background-image: url(anastase-maragos-9dzWZQWZMdE-unsplash.jpg);
+     background-attachment: fixed; 
+    background-size: cover;
+    height: 650px;
+    width: 100%; 
+    padding-top: 1px;
+   position: absolute;
+    
+}
+section .img1 span .text1{
+    font-size: xx-large;
+    color: white;
+    position: relative;
+}
+
+
+
+
+section .part2{
+   
+}
+
+
