@@ -7,12 +7,14 @@ header {
     height: 50px;
     background-color: transparent;
     width: 100%;
-    position: sticky;
+    position: ;
    
 }
 
 header .m1 {
     display: flex;
+    margin-top: 10px;
+    position: sticky;
     
 
 }
@@ -61,6 +63,7 @@ header .m1 .m2 {
     padding-top: 3px;
     display: flex;
     font-size: 30px;
+  
    
 
 }
@@ -96,20 +99,37 @@ section  .img1{
     height: 650px;
     width: 100%; 
     padding-top: 1px;
-   position: absolute;
+   position: relative;
     
 }
-section .img1 span .text1{
+section .text1{
     font-size: xx-large;
     color: white;
-    position: relative;
+    position: absolute;
+    text-align: center;
+   padding: 150px 350px;
+    font-size: 70px;
+}
+section .text1 button{
+    font-size: medium;
+    height: 55px;
+    width: 160px;
+    color: white;
+    background-color: red;
+    border: 2px solid transparent;
+    border-radius:15px;   
+    transition: all 1s 2s linear;
+
+    
+  
+}
+section .text1 button :hover{
+    height: 58px;
+    width: 164px;
 }
 
 
 
 
-section .part2{
-   
-}
 
 
